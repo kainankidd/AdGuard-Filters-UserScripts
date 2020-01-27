@@ -31,4 +31,3 @@ google.com##.FPdoLc, .tfB0Bf
 google.com###gws-output-pages-elements-homepage_additional_languages__als
 ! 𝘏𝘪𝘥𝘦 𝘍𝘰𝘰𝘵𝘦𝘳
 google.com###footer
-reddit.com##div.side:nth-child(5) > div.spacer:nth-child(5) > div.sidebox.create
