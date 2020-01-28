@@ -5,22 +5,26 @@
 	<key>PayloadContent</key>
 	<array>
 		<dict>
-			<key>AppBundleIdentifier</key>
-			<string>com.adguard.AdguardExtension</string>
+			<key>AutoFilterEnabled</key>
+			<true/>
+			<key>FilterBrowsers</key>
+			<true/>
+			<key>FilterSockets</key>
+			<true/>
+			<key>FilterType</key>
+			<string>BuiltIn</string>
 			<key>PayloadDescription</key>
-			<string>Configures DNS proxy network extension</string>
+			<string>Configures content filtering settings</string>
 			<key>PayloadDisplayName</key>
-			<string>DNS Proxy</string>
+			<string>Web Content Filter</string>
 			<key>PayloadIdentifier</key>
-			<string>com.apple.dnsProxy.managed.17702211-6516-4ABE-AA95-B1735019EBFA</string>
+			<string>com.apple.webcontent-filter.D4EE5912-EA9D-421E-AFFF-1A88D3A80707</string>
 			<key>PayloadType</key>
-			<string>com.apple.dnsProxy.managed</string>
+			<string>com.apple.webcontent-filter</string>
 			<key>PayloadUUID</key>
-			<string>17702211-6516-4ABE-AA95-B1735019EBFA</string>
+			<string>D4EE5912-EA9D-421E-AFFF-1A88D3A80707</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
-			<key>ProviderBundleIdentifier</key>
-			<string>AP_TUNNEL_ID</string>
 		</dict>
 		<dict>
 			<key>AlwaysOn</key>
@@ -138,6 +142,38 @@
 			<key>VendorConfig</key>
 			<dict/>
 		</dict>
+		<dict>
+			<key>AppBundleIdentifier</key>
+			<string>com.adguard.AdguardExtension</string>
+			<key>PayloadDescription</key>
+			<string>Configures DNS proxy network extension</string>
+			<key>PayloadDisplayName</key>
+			<string>DNS Proxy</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.dnsProxy.managed.17702211-6516-4ABE-AA95-B1735019EBFA</string>
+			<key>PayloadType</key>
+			<string>com.apple.dnsProxy.managed</string>
+			<key>PayloadUUID</key>
+			<string>17702211-6516-4ABE-AA95-B1735019EBFA</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>ProviderBundleIdentifier</key>
+			<string>AP_TUNNEL_ID</string>
+		</dict>
+		<dict>
+			<key>PayloadDescription</key>
+			<string>Configures Managed Domains</string>
+			<key>PayloadDisplayName</key>
+			<string>Domains</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.domains.9A0110D4-7EE6-48AF-ADD3-EB6814AD6D30</string>
+			<key>PayloadType</key>
+			<string>com.apple.domains</string>
+			<key>PayloadUUID</key>
+			<string>9A0110D4-7EE6-48AF-ADD3-EB6814AD6D30</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
 	</array>
 	<key>PayloadDisplayName</key>
 	<string>Untitled</string>
@@ -148,7 +184,7 @@
 	<key>PayloadType</key>
 	<string>Configuration</string>
 	<key>PayloadUUID</key>
-	<string>B018DE3F-44D1-4CEB-89EC-2CCBF194BF65</string>
+	<string>2CB396C4-314F-4865-B36C-DF04C3777494</string>
 	<key>PayloadVersion</key>
 	<integer>1</integer>
 </dict>
