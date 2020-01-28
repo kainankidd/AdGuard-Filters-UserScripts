@@ -7,6 +7,8 @@
 		<dict>
 			<key>AlwaysOn</key>
 			<dict>
+				<key>AllowAllCaptiveNetworkPlugins</key>
+				<false/>
 				<key>AllowedCaptiveNetworkPlugins</key>
 				<array>
 					<dict>
@@ -85,7 +87,7 @@
 					</dict>
 				</array>
 				<key>UIToggleEnabled</key>
-				<false/>
+				<true/>
 			</dict>
 			<key>IPv4</key>
 			<dict>
@@ -97,11 +99,11 @@
 			<key>PayloadDisplayName</key>
 			<string>VPN</string>
 			<key>PayloadIdentifier</key>
-			<string>com.apple.vpn.managed.1EFCC6E8-D8B2-4CED-BA57-97D438A8B232</string>
+			<string>com.apple.vpn.managed.E393FE33-9B65-4EC5-BDFA-4C0D0EE4FD6B</string>
 			<key>PayloadType</key>
 			<string>com.apple.vpn.managed</string>
 			<key>PayloadUUID</key>
-			<string>1EFCC6E8-D8B2-4CED-BA57-97D438A8B232</string>
+			<string>E393FE33-9B65-4EC5-BDFA-4C0D0EE4FD6B</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
 			<key>Proxies</key>
@@ -118,113 +120,6 @@
 			<key>VendorConfig</key>
 			<dict/>
 		</dict>
-		<dict>
-			<key>AlwaysOn</key>
-			<dict>
-				<key>AllowedCaptiveNetworkPlugins</key>
-				<array/>
-				<key>ServiceExceptions</key>
-				<array/>
-				<key>TunnelConfigurations</key>
-				<array>
-					<dict>
-						<key>AuthenticationMethod</key>
-						<string>None</string>
-						<key>ChildSecurityAssociationParameters</key>
-						<dict>
-							<key>DiffieHellmanGroup</key>
-							<integer>14</integer>
-							<key>EncryptionAlgorithm</key>
-							<string>AES-256</string>
-							<key>IntegrityAlgorithm</key>
-							<string>SHA2-256</string>
-							<key>LifeTimeInMinutes</key>
-							<integer>1440</integer>
-						</dict>
-						<key>DeadPeerDetectionRate</key>
-						<string>Medium</string>
-						<key>DisableMOBIKE</key>
-						<integer>0</integer>
-						<key>DisableRedirect</key>
-						<integer>0</integer>
-						<key>EnableCertificateRevocationCheck</key>
-						<integer>0</integer>
-						<key>EnableFallback</key>
-						<integer>0</integer>
-						<key>EnablePFS</key>
-						<integer>0</integer>
-						<key>IKESecurityAssociationParameters</key>
-						<dict>
-							<key>DiffieHellmanGroup</key>
-							<integer>14</integer>
-							<key>EncryptionAlgorithm</key>
-							<string>AES-256</string>
-							<key>IntegrityAlgorithm</key>
-							<string>SHA2-256</string>
-							<key>LifeTimeInMinutes</key>
-							<integer>1440</integer>
-						</dict>
-						<key>Interfaces</key>
-						<array>
-							<string>Cellular</string>
-							<string>WiFi</string>
-						</array>
-						<key>LocalIdentifier</key>
-						<string> </string>
-						<key>NATKeepAliveInterval</key>
-						<integer>110</integer>
-						<key>NATKeepAliveOffloadEnable</key>
-						<integer>1</integer>
-						<key>ProtocolType</key>
-						<string>IKEv2</string>
-						<key>RemoteAddress</key>
-						<string>System DNS</string>
-						<key>RemoteIdentifier</key>
-						<string>127.16.209.2</string>
-						<key>UseConfigurationAttributeInternalIPSubnet</key>
-						<integer>0</integer>
-					</dict>
-				</array>
-			</dict>
-			<key>IPv4</key>
-			<dict>
-				<key>OverridePrimary</key>
-				<integer>0</integer>
-			</dict>
-			<key>PayloadDescription</key>
-			<string>Configures VPN settings</string>
-			<key>PayloadDisplayName</key>
-			<string>VPN</string>
-			<key>PayloadIdentifier</key>
-			<string>com.apple.vpn.managed.A83033DB-355C-4690-8067-F1C5C0DAAB11</string>
-			<key>PayloadType</key>
-			<string>com.apple.vpn.managed</string>
-			<key>PayloadUUID</key>
-			<string>A83033DB-355C-4690-8067-F1C5C0DAAB11</string>
-			<key>PayloadVersion</key>
-			<integer>1</integer>
-			<key>Proxies</key>
-			<dict>
-				<key>HTTPEnable</key>
-				<true/>
-				<key>HTTPPort</key>
-				<integer>80</integer>
-				<key>HTTPProxy</key>
-				<string>127.0.0.1</string>
-				<key>HTTPSEnable</key>
-				<true/>
-				<key>HTTPSPort</key>
-				<integer>80</integer>
-				<key>HTTPSProxy</key>
-				<string>127.0.0.1</string>
-			</dict>
-			<key>UserDefinedName</key>
-			<string>AdGuard</string>
-			<key>VPNType</key>
-			<string>AlwaysOn</string>
-			<key>VendorConfig</key>
-			<dict/>
-		</dict>
 	</array>
 	<key>PayloadDisplayName</key>
 	<string>Untitled</string>
@@ -235,7 +130,7 @@
 	<key>PayloadType</key>
 	<string>Configuration</string>
 	<key>PayloadUUID</key>
-	<string>19764616-CA99-4285-B625-EFE338E9E9E4</string>
+	<string>EB26B2EC-7A15-4C84-9364-319A3B312C69</string>
 	<key>PayloadVersion</key>
 	<integer>1</integer>
 </dict>
