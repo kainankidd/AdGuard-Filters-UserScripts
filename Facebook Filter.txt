@@ -6247,3 +6247,6 @@
 ||zh-tw.facebook.com^
 ||zh-tw.facebook.com^$popup
 ||zh-tw.facebook.com^$third-party
+||facebook.com$domain=~www.facebook.com
+||facebook.net$domain=~www.facebook.com
+||fbcdn.net$domain=~www.facebook.com
