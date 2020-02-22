@@ -8,11 +8,8 @@
 ! 𝘏𝘪𝘥𝘦 𝘙𝘦𝘥𝘥𝘪𝘵 𝘙𝘶𝘭𝘦𝘴
 reddit.com##.reddiquette
 ! 𝘏𝘪𝘥𝘦 𝘊𝘳𝘦𝘢𝘵𝘦 𝘚𝘶𝘣𝘳𝘦𝘥𝘥𝘪𝘵
-reddit.com##div.side:nth-child(5) > div.spacer:nth-child(8) > div.sidebox.create
-reddit.com##div.side:nth-child(5) > div.spacer:nth-child(5) > div.sidebox.create
 ! 𝘏𝘪𝘥𝘦 𝘚𝘪𝘥𝘦𝘣𝘢𝘳
 reddit.com##.sidecontentbox
-reddit.com##.titlebox
 ! 𝘏𝘪𝘥𝘦 𝘙𝘦𝘥𝘥𝘪𝘵 𝘙𝘦𝘥𝘦𝘴𝘪𝘨𝘯 𝘖𝘱𝘵-𝘪𝘯
 reddit.com##.redesign-beta-optin
 ! 𝘏𝘪𝘥𝘦 𝘛𝘳𝘦𝘯𝘥𝘪𝘯𝘨 𝘚𝘶𝘣𝘳𝘦𝘥𝘥𝘪𝘵𝘴 Copied
@@ -33,8 +30,23 @@ google.com,google.co.uk##.FPdoLc, .tfB0Bf, .KojFAc, .qgS5Fc, .fbar
 ! 𝘏𝘪𝘥𝘦 𝘈𝘥𝘥𝘪𝘵𝘪𝘰𝘯𝘢𝘭 𝘓𝘢𝘯𝘨𝘶𝘢𝘨𝘦𝘴
 google.com###gws-output-pages-elements-homepage_additional_languages__als
 ! 𝘏𝘪𝘥𝘦 𝘍𝘰𝘰𝘵𝘦𝘳
-#gb
 google.com,google.co.uk##div.fbar
+! 𝘏𝘪𝘥𝘦: 𝘙𝘦𝘭𝘢𝘵𝘦𝘥 𝘘𝘶𝘦𝘴𝘵𝘪𝘰𝘯𝘴 - 𝘙𝘦𝘭𝘢𝘵𝘦𝘥 𝘚𝘦𝘢𝘳𝘤𝘩𝘴 / 𝘗𝘦𝘰𝘱𝘭𝘦 𝘈𝘭𝘴𝘰 𝘚𝘦𝘢𝘳𝘤𝘩𝘦𝘥
+google.com,google.co.uk###extrares #botstuff div[data-ved] div[data-hveid]
+google.com,google.co.uk###extrares #botstuff div[data-ved] div[jscontroller][data-hveid][data-ved]
+google.com,google.co.uk###main div[data-ved] > div[data-hveid] div[jscontroller] > div[jsname][data-ved] div[data-has-close][class*="result-pivots"][data-ved]
+google.com,google.co.uk###main div[data-ved] div[data-async-context] .kno-result[data-hveid][data-ved]
+google.com,google.co.uk##[jscontroller] #rg[data-ved] div[class*="irc-"]
+google.com,google.co.uk##div[jsname][role="list"] div[jsname][data-id^="Refinements"]
+google.com,google.co.uk##div[id^="eobm_"]
+google.com,google.co.uk## .mw div[jsl^="$t"][jsl$="0;"][class^="r-"]
+google.com,google.co.uk##div[class^="r-inw"]
+google.com,google.co.uk##.exp-outline
+google.com,google.co.uk##.ads-ad
+! 𝘏𝘪𝘥𝘦: 𝘊𝘰𝘯𝘴𝘦𝘯𝘵 𝘖𝘷𝘦𝘳𝘭𝘢𝘺
+google.com,google.co.uk###lb
+! 𝘋𝘪𝘴𝘢𝘣𝘭𝘦: 𝘚𝘤𝘳𝘰𝘭𝘭 𝘓𝘰𝘤𝘬
+docs.google.com,google.com,google.co.uk##body:style(overflow:auto!important)
 ! 
 !
 ! 𒈞 𝐒𝐎𝐔𝐍𝐃𝐂𝐋𝐎𝐔𝐃 𒈞
@@ -48,3 +60,42 @@ soundcloud.com##.quotaMeterWrapper, .mixedSelectionModule__context, .l-footer
 soundcloud.com##ul.moreMenu__list:nth-child(1), ul.moreMenu__list:nth-child(2), ul.moreMenu__list:nth-child(3), ul.moreMenu__list:nth-child(4) > li:nth-child(1)
 ! 𝗛𝗶𝗱𝗲 𝗳𝗿𝗼𝗺 𝗣𝗿𝗼𝗳𝗶𝗹𝗲 𝗠𝗲𝗻𝘂: 𝘛𝘳𝘢𝘤𝘬𝘴 & 𝘚𝘵𝘢𝘵𝘴 - 𝘞𝘩𝘰 𝘵𝘰 𝘍𝘰𝘭𝘭𝘰𝘸 & 𝘍𝘰𝘭𝘭𝘰𝘸𝘪𝘯𝘨
 soundcloud.com##ul.profileMenu__list:nth-child(2), .profileMenu__friends, .profileMenu__following
+! 
+! 
+! 𒈞 𝐌𝐀𝐈𝐋𝐅𝐄𝐍𝐂𝐄 𒈞
+mailfence.com###div.slogan
+mailfence.com###privacy
+mailfence.com##.section
+@@||my.bt.com^$important,document,~extension
+@@||snew.notabug.io^$important,document,~extension
+google.co.uk###//*[@id="hdtb-msb-vis"]/div[5]/a/text()
+@@||zooqle.com^$important,document,~extension
+soundcloud.com##.mobileApps
+soundcloud.com##.statsModule
+soundcloud.com###content > div > div.l-listen-wrapper:last-child > div.l-about-main:first-child > div.l-about-rows > div.l-about-row:first-child > div.l-about-top > div.listenEngagement.sc-clearfix > div.listenEngagement__footer:last-child > div.soundActions.sc-button-toolbar.listenEngagement__actions.soundActions__medium:first-child > div.sc-button-group.sc-button-group-medium > button.sc-button-more.sc-button.sc-button-medium.sc-button-responsive:last-child
+soundcloud.com###content > div > div.l-listen-wrapper:last-child > div.l-about-main:first-child > div.l-about-rows > div.l-about-row:first-child > div.l-about-top > div.listenEngagement.sc-clearfix > div.listenEngagement__footer:last-child > div.soundActions.sc-button-toolbar.listenEngagement__actions.soundActions__medium:first-child > div.sc-button-group.sc-button-group-medium > button.sc-button-more.sc-button.sc-button-medium.sc-button-responsive:last-child
+soundcloud.com###content > div > div.l-listen-wrapper:last-child > div.l-about-main:first-child > div.l-about-rows > div.l-about-row:first-child > div.l-about-top > div.listenEngagement.sc-clearfix > div.listenEngagement__footer:last-child > div.soundActions.sc-button-toolbar.listenEngagement__actions.soundActions__medium:first-child > div.sc-button-group.sc-button-group-medium > button.sc-button-more.sc-button.sc-button-medium.sc-button-responsive:nth-child(5)
+@@||help.instagram.com^$important,document,~extension
+@@||www.instagram.com^$important,document,~extension
+reddit.com##.account-activity-box
+reddit.com##.rank
+reddit.com##.create
+reddit.com##.tabmenu > li:nth-child(6)
+reddit.com###header-bottom-left > ul.tabmenu:last-child > li:nth-child(7)
+reddit.com###header-bottom-left > ul.tabmenu:last-child > li:last-child
+reddit.com##div.titlebox
+reddit.com##.give-gold-button
+reddit.com##.report-button
+reddit.com##.share
+reddit.com##.embed-comment
+reddit.com##.awardings-bar
+reddit.com###chat
+reddit.com###header-bottom-right > span.separator:nth-child(7)
+reddit.com##.global
+startpage.com##.hero-search__tagline
+startpage.com###more-content
+startpage.com##.footer
+startpage.com##.hero-search__learn-more
+startpage.com##.burger-menu
+startpage.com##.menu-container
+startpage.com##.w-gl__label
